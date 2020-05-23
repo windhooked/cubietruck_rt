@@ -1,4 +1,10 @@
+Build on current
+copy patch-5.4.40-rt24.patch to armbian/build/userpatches/kernel/sunxi-current
+Start build process, exclude AUFS from the build, under misc filesystems
+
+Build on legacy
 https://autostatic.com/2013/09/17/exit-beaglebone-black-hello-cubieboard2/
+
 https://groups.google.com/forum/#!topic/cubieboard/kQp6Au_hUDE
 
 1. Install:
