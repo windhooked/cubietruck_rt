@@ -1,13 +1,14 @@
-Build on current
+# Build on current
 copy patch-5.4.40-rt24.patch to armbian/build/userpatches/kernel/sunxi-current
 Start build process, exclude AUFS from the build, under misc filesystems
 
-Build on legacy
+# Build on legacy
 https://autostatic.com/2013/09/17/exit-beaglebone-black-hello-cubieboard2/
 
 https://groups.google.com/forum/#!topic/cubieboard/kQp6Au_hUDE
 
-1. Install:
+## OpenGL on A20 CT MALI 400
+# 1. Install:
 
 # install GLX Gears, mesa GL and GLU libraries 
 apt-get -y install mesa-utils
